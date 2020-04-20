@@ -1,0 +1,109 @@
+.social-icons {
+  color: #313437;
+  background-color: #fff;
+  text-align: center;
+  padding: 70px 0;
+}
+
+@media (max-width:767px) {
+  .social-icons {
+    padding: 50px 0;
+  }
+}
+
+.social-icons i {
+  font-size: 32px;
+  display: inline-block;
+  color: #757980;
+  margin: 0 10px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #c8ced7;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 60px;
+}
+
+#hdr-top-wrapper {
+}
+
+#main-banner .jumbotron {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  #main-banner .jumbotron {
+    padding: 20px 10px 20px 10px;
+  }
+}
+
+#main.jumbotron {
+}
+
+@media (max-width: 576px) {
+  .jumbotron .h1, h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .jumbotron .p, p {
+    font-size: 12px;
+  }
+}
+
+.container.home-matches {
+  text-align: center;
+  padding: 40px;
+  margin: auto;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.home-matches .h2, h2 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.h2, h2 {
+}
+
+.home-matches .main-col img {
+  width: 100%;
+}
+
+.home-matches .sub-col img {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  #main-banner .jumbotron .btn.btn-primary {
+    font-size: 10px;
+  }
+}
+
+.home-matches .main-col {
+  padding: 10px 15px;
+}
+
+.home-matches .sub-col {
+  padding: 0px 0px 10px 0px;
+}
+
+.home-matches .text-block {
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  background-color: rgba(0,0,0,.80);
+  color: white;
+  padding-left: 20px;
+  border-radius: 3px;
+  padding-right: 20px;
+}
+
+.home-matches .container {
+  position: relative;
+}
+
